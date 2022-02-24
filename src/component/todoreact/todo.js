@@ -9,12 +9,27 @@ const Todo = () => {
       alert("please add the task");
     }
     else {
-      setItems([...items, inputdata])
+      const newInputdata = {
+        id: new Date().getTime(),
+        name: inputdata,
+      };
+      setItems([...items, newInputdata])
       setInputData("");
     }
-    
   };
 
+  //remove task
+  const deleteItem = (TaskId) => {
+    const updatedTasks = items.filter((currTask) => {
+      return currTask.id !== TaskId;
+    });
+     setItems(updatedTasks);
+  };
+
+  //Remove All Tasks
+  const removeAll = () => { setItems([]) };
+
+  
   return (
     <>
       <div className="main-div">
@@ -29,13 +44,13 @@ const Todo = () => {
           </div>
           {/*Show Items*/}
           <div className="showItems">
-            {items.map((currTask, index) => {
+            {items.map((currTask) => {
               return (
-                <div className="eachItem">
-                  {currTask}
+                <div className="eachItem" key={currTask.id}>
+                  {currTask.name}
                <div className="todo-btn">
                     <i className="far fa-edit add-btn"></i>
-                    <i className="far fa-trash-alt add-btn"></i>
+                    <i className="far fa-trash-alt add-btn" onClick={() => deleteItem(currTask.id)}></i>
                   </div>
             </div>
               )
@@ -44,8 +59,8 @@ const Todo = () => {
           </div>
 
           {/*remove all tasks*/}
-          <div className="showItems">
-              <button className="btn effect04" data-sm-link-text="Remove All"><span>Check List</span></button>
+          <div className="showItems" >
+              <button className="btn effect04" data-sm-link-text="Remove All" onClick={removeAll}><span>Check List</span></button>
             </div>
           </div>
         </div>
