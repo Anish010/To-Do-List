@@ -25,7 +25,7 @@ Using HTLM, CSS, Javascript and ReactJS (along with Local Storage React JS hooks
 ### Link
 
 - Solution URL : [https://github.com/Anish010/To-Do-List]
-- Live Site URL : [https://anish-standard-calculator.netlify.app/]
+- Live Site URL : [https://anish101-todolist.netlify.app]
 
 ## My process
 
