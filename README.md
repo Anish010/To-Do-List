@@ -1,4 +1,4 @@
-# Standard Calculator
+# TO DO List
 
 ## Table of contents
 
@@ -19,8 +19,8 @@ Using HTLM, CSS, Javascript and ReactJS (along with Local Storage React JS hooks
 
 ### Screenshot
 
-![Dekstop Design preview for the Order summary card coding challenge](./images/desktop.jpg)
-![Mobile Design preview for the Order summary card coding challenge](./images/mobile.jpg)
+![Dekstop Design preview for the Order summary card coding challenge](./images/desktop.png)
+![Mobile Design preview for the Order summary card coding challenge](./images/mobile.png)
 
 ### Link
 
