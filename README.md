@@ -1,4 +1,4 @@
-# TO DO List
+# To Do List
 
 ## Table of contents
 
@@ -19,8 +19,8 @@ Using HTLM, CSS, Javascript and ReactJS (along with Local Storage React JS hooks
 
 ### Screenshot
 
-![Dekstop Design preview for the Order summary card coding challenge](./images/desktop.png)
-![Mobile Design preview for the Order summary card coding challenge](./images/mobile.png)
+![Dekstop Design preview for To Do List application](./public/images/desktop.png)
+![Mobile Design preview for the To Do List application](./public/images/mobile.png)
 
 ### Link
 
