@@ -65,6 +65,7 @@ input {
   margin-left: 1rem;
   font-size: 1.8rem;
   margin-top: 1rem;
+
   color: rgb(255, 255, 255);
   background-color: hsl(235, 51%, 49%);
   background-image: none;
@@ -84,6 +85,7 @@ input {
   cursor: pointer;
   pointer-events: auto;
   color: #666;
+
   font-size: 2rem;
 }
 .fa:hover {
