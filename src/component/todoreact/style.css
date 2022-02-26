@@ -27,7 +27,6 @@ html {
   background-color: #050835;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .child-div {
@@ -65,9 +64,7 @@ input {
   padding: 1.1rem 0.5rem;
   margin-left: 1rem;
   font-size: 1.8rem;
-  /*line-height: 1.42857143;*/
   margin-top: 1rem;
-
   color: rgb(255, 255, 255);
   background-color: hsl(235, 51%, 49%);
   background-image: none;
@@ -86,12 +83,7 @@ input {
   margin-left: -2.5rem;
   cursor: pointer;
   pointer-events: auto;
-  /*z-index: 10;
-  background-color: #fff;
-  background-image: none;*/
   color: #666;
-  /*-webkit-transition: color 0.15s linear;
-  transition: color 0.15s linear;*/
   font-size: 2rem;
 }
 .fa:hover {
@@ -146,13 +138,9 @@ input {
 
 .fa-trash-alt,
 .fa-edit {
-  /* margin-left: -2.5rem; */
   cursor: pointer;
   pointer-events: auto;
-  z-index: 10;
   color: rgb(251, 251, 251);
-  -webkit-transition: color 0.15s linear;
-  transition: color 0.15s linear;
   font-size: 2rem;
 }
 
