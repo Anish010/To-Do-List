@@ -41,7 +41,7 @@ Using HTLM, CSS, Javascript and ReactJS (along with Local Storage React JS hooks
 
 With the help of this project i able to practice my CSS ,HTML skills and javascript DOM skills very well. It helped me to brush up my REACT JS skills useState , Hooks useEffect as well.
 
-The Design and interface of this aplication is inspired from the public source.
+The Design of this aplication is inspired from the public source. It's not original.
 
 ## Author
 
